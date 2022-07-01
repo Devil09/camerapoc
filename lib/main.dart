@@ -89,6 +89,7 @@ class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
     _photoSize.dispose();
     _captureMode.dispose();
     super.dispose();
+    //
   }
 
   @override
